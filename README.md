@@ -69,3 +69,17 @@ Para essse desafio temos os seguintes testes:
   <li><p><strong><code>Should be able to creat a new transaction</code></strong>: Para que esse teste passe, a aplicação deve permitir que uma transação seja criada, e retorne um <b>json</b> com a transação criada.</P></li>
 </ul>
 
+<ul>
+  <li><p><strong><code>Should be able to list the transactions</code></strong>:Para que esse teste passe, a aplicação deve permitir que seja retornado um objeto contendo todas as trasnsações junto ao balanço de <b>income</b>, <b>outcome</b> e total das transações que foram criadas até o momento.</P></li>
+</ul>
+
+<ul>
+  <li><p><strong><code>Should not able to creat outcome transaction without a valid balance</code></strong>: Para que esse teste passe, a aplicação não deve permitir que uma transação do tipo <code>outcome</code> extrapole o valor total que o usuário tem em caixa, retornando uma resposta com código HTTP 400 e uma mensagem de erro no seguinte formato: <code>{ error: string }</code>.</P></li>
+</ul>
+
+🤷‍♂️Caso tenha alguma dúvida quanto ao que são os testes e como interpretá-los, dé uma olhada em <strong> <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios">neste FAQ 💜🚀</a></strong>.
+
+<h2>
+<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> Licença
+</h2>
+<p> Esse projeto está sob a licença MIT. </p>
