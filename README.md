@@ -57,7 +57,7 @@ Este desafio tem a intenção de criar uma aplicação para continuar a treinar 
   }
 }
 ```
-<b>Detalhe</b>: Dentro de balance, o **income** é a soma de todos os valores das transações com ```type``` income. O **outcome** é a soma de todos os valores das transações com ```type``` outcome, e o total é valor de ```income - outcome```. Para fazer a soma dos valores, foi utilizado a função <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" target="blank"> reduce</a> para agrupar as transações pela propriedade ```type```, assim foi possível conseguir somar todos os valores com facilidade e obter o retorno do ```balance```.
+<b>Detalhe</b>: Dentro de balance, o **income** é a soma de todos os valores das transações com ```type``` income. O **outcome** é a soma de todos os valores das transações com ```type``` outcome, e o total é valor de ```income - outcome```. Para fazer a soma dos valores, foi utilizado a função <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" target="_blank"> reduce </a> para agrupar as transações pela propriedade ```type```, assim foi possível conseguir somar todos os valores com facilidade e obter o retorno do ```balance```.
 
 # Especificação dos testes
 
@@ -78,7 +78,7 @@ Para essse desafio temos os seguintes testes:
 </ul>
 
 🤷‍♂️Caso tenha alguma dúvida quanto ao que são os testes e como interpretá-los, dé uma olhada em <strong> <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios">neste FAQ 💜🚀</a></strong>.
-
+ <a href="xyz.html" target="_blank"> Link </a>
 <h2>
 <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> Licença
 </h2>
