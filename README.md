@@ -11,7 +11,7 @@ Este desafio tem a intenção de criar uma aplicação para continuar a treinar 
 
 # Rotas da aplicação
 
-<b>```✔ POST / Transactions```</b>: A rota deve receber ```title```, ```value``` e ```type``` dentro do corpo da requisição, sendo ```type``` o tipo da transação, que deve ser ```income``` para entradas(depósitos) e ```outcome``` para saídas(retiradas). AO cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com a seguinte formato:
+<b>```✔ POST / Transactions```</b>: A rota deve receber ```title```, ```value``` e ```type``` dentro do corpo da requisição, sendo ```type``` o tipo da transação, que deve ser ```income``` para entradas(depósitos) e ```outcome``` para saídas(retiradas). Ao cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com a seguinte formato:
 ```
 { 
   "id": "uuid",
@@ -21,4 +21,40 @@ Este desafio tem a intenção de criar uma aplicação para continuar a treinar 
 }
 ```
 
-<b>```✔ GET / Transactions:
+<b>```✔ GET / Transactions```</b>: Essa rota deve retornar uma listagem com todas as transações cadastradas até agora, junto com o valor de soma de entradas, retiradas e total de crédito. Essa rota deve retornar um objeto com o formato a seguir:
+```
+{
+  "transactions": [
+    {
+      "id": "uuid",
+      "title": "Salário",
+      "value": 4000,
+      "type": "income"
+    },
+    {
+      "id": "uuid",
+      "title": "Freela",
+      "value": 2000,
+      "type": "income"
+    },
+    {
+      "id": "uuid",
+      "title": "Pagamento da fatura",
+      "value": 4000,
+      "type": "outcome"
+    },
+    {
+      "id": "uuid",
+      "title": "Cadeira Gamer",
+      "value": 1200,
+      "type": "outcome"
+    }
+  ],
+  "balance": {
+    "income": 6000,
+    "outcome": 5200,
+    "total": 800
+  }
+}
+```
+<b>Detalhe</b>: Dentro de balance, o **income** é a soma de todos os valores das transações com ```type``` income. O **outcome** é a soma de todos os valores das transações com ```type``` outcome, e o total é valor de ```income - outcome```. Para fazer a soma dos valores, foi utilizado a função <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" rel="nofollow">reduce</a> para agrupar as transações pela propriedade ```type```, assim foi possível conseguir somar todos os valores com facilidade e obter o retorno do ```balance```.
