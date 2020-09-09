@@ -57,7 +57,7 @@ Este desafio tem a intenção de criar uma aplicação para continuar a treinar 
   }
 }
 ```
-<b>Detalhe</b>: Dentro de balance, o **income** é a soma de todos os valores das transações com ```type``` income. O **outcome** é a soma de todos os valores das transações com ```type``` outcome, e o total é valor de ```income - outcome```. Para fazer a soma dos valores, foi utilizado a função <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" target="_parent"> reduce</a> para agrupar as transações pela propriedade ```type```, assim foi possível conseguir somar todos os valores com facilidade e obter o retorno do ```balance```.
+<b>Detalhe</b>: Dentro de balance, o **income** é a soma de todos os valores das transações com ```type``` income. O **outcome** é a soma de todos os valores das transações com ```type``` outcome, e o total é valor de ```income - outcome```. Para fazer a soma dos valores, foi utilizado a função <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" target="blank"> reduce</a> para agrupar as transações pela propriedade ```type```, assim foi possível conseguir somar todos os valores com facilidade e obter o retorno do ```balance```.
 
 # Especificação dos testes
 
@@ -74,7 +74,7 @@ Para essse desafio temos os seguintes testes:
 </ul>
 
 <ul>
-  <li><p><strong><code>Should not able to creat outcome transaction without a valid balance</code></strong>: Para que esse teste passe, a aplicação não deve permitir que uma transação do tipo <code>outcome</code> extrapole o valor total que o usuário tem em caixa, retornando uma resposta com código HTTP 400 e uma mensagem de erro no seguinte formato: <code>{ error: string }</code>.</P></li>
+  <li><p><strong><code>Should not able to creat outcome transaction without a valid balance</code></strong>: Para que esse teste passe, a aplicação não deve permitir que uma transação do tipo <code>outcome</code> extrapole o valor total que o usuário tem em caixa, retornando uma resposta com código HTTP 400 e uma mensagem de erro no seguinte formato: <code>{error: string}</code>.</P></li>
 </ul>
 
 🤷‍♂️Caso tenha alguma dúvida quanto ao que são os testes e como interpretá-los, dé uma olhada em <strong> <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios">neste FAQ 💜🚀</a></strong>.
