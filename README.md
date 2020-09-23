@@ -63,7 +63,7 @@ Este desafio tem a intenção de criar uma aplicação para continuar a treinar 
 
 Em cada teste, tem uma breve descrição no que a aplicação deve cumprir para que o teste passe.
 
-Para essse desafio temos os seguintes testes:
+Para esse desafio temos os seguintes testes:
 
 <ul>
   <li><p><strong><code>Should be able to creat a new transaction</code></strong>: Para que esse teste passe, a aplicação deve permitir que uma transação seja criada, e retorne um <b>json</b> com a transação criada.</P></li>
