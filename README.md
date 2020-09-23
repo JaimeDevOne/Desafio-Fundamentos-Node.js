@@ -70,7 +70,7 @@ Para esse desafio temos os seguintes testes:
 </ul>
 
 <ul>
-  <li><p><strong><code>Should be able to list the transactions</code></strong>:Para que esse teste passe, a aplicação deve permitir que seja retornado um objeto contendo todas as trasnsações junto ao balanço de <b>income</b>, <b>outcome</b> e total das transações que foram criadas até o momento.</P></li>
+  <li><p><strong><code>Should be able to list the transactions</code></strong>:Para que esse teste passe, a aplicação deve permitir que seja retornado um objeto contendo todas as transações junto ao balanço de <b>income</b>, <b>outcome</b> e total das transações que foram criadas até o momento.</P></li>
 </ul>
 
 <ul>
@@ -78,7 +78,7 @@ Para esse desafio temos os seguintes testes:
 </ul>
 
 🤷‍♂️Caso tenha alguma dúvida quanto ao que são os testes e como interpretá-los, dé uma olhada em <strong> <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios">neste FAQ 💜🚀</a></strong>.
- <a href="xyz.html" target="_blank"> Link </a>
+ <a href="xyz.html" target="_blank"> </a>
 <h2>
 <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> Licença
 </h2>
