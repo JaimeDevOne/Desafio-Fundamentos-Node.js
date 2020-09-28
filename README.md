@@ -77,7 +77,7 @@ Para esse desafio temos os seguintes testes:
   <li><p><strong><code>Should not able to creat outcome transaction without a valid balance</code></strong>: Para que esse teste passe, a aplicação não deve permitir que uma transação do tipo <code>outcome</code> extrapole o valor total que o usuário tem em caixa, retornando uma resposta com código HTTP 400 e uma mensagem de erro no seguinte formato: <code>{error: string}</code>.</P></li>
 </ul>
 
-🤷‍♂️Caso tenha alguma dúvida quanto ao que são os testes e como interpretá-los, dé uma olhada em <strong> <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios">neste FAQ 💜🚀</a></strong>.
+🤷‍♂️Caso tenha alguma dúvida quanto ao que são os testes e como interpretá-los, dé uma olhada em <strong> <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios">neste FAQ💜🚀</a></strong>
  <a href="xyz.html" target="_blank"> </a>
 <h2>
 <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> Licença
